@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Goguma.Util;
 
 namespace Goguma
 {
@@ -10,6 +8,7 @@ namespace Goguma
   {
     static void Main(string[] args)
     {
+      ConsoleManager.PrintLogo();
     }
   }
 }
